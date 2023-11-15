@@ -178,4 +178,13 @@ int main()
         ar.PushBack(rand() % 100);
         Sleep(15);
     }
+
+    ar.PushBack(5);
+    ar.PushBack(10);
+    ar.Insert(8, 1);
+    ar.RemoveByIndex(0);
+    ar.RemoveByValue(10);
+    ar.PopFront();
+    ar.PopBack();
+    ar.Print();
 }
